@@ -120,8 +120,8 @@ textarea{font:14px/1.4 var(--mono);text-transform:uppercase}
 .code.B{background:#4f8a17}
 .box.koli{background:linear-gradient(#d2a878,#b78a5b);box-shadow:inset 0 2px 0 #e2bd92,inset 0 -3px 0 #a37a4f}
 .box.koli .bn{color:#3b2a17}.box.koli .bc{color:#5d4329}
-.box.koli.empty{background:repeating-linear-gradient(135deg,#f3f5f7 0 8px,#e8ecf0 8px 16px);box-shadow:none;border:1px dashed #c3ccd5}
-.box.koli.empty .bn,.box.koli.empty .bc{color:#8a99a8}.box.koli.empty .bi{border-color:#c3ccd5;color:#9aa8b5}
+.box.empty{background:repeating-linear-gradient(135deg,#f3f5f7 0 8px,#e8ecf0 8px 16px);box-shadow:none;border:1px dashed #c3ccd5}
+.box.empty .bn,.box.empty .bc{color:#8a99a8}.box.empty .bi{border-color:#c3ccd5;color:#9aa8b5}
 .login{max-width:380px;margin:12vh auto 0;padding:22px}
 .login h2{font:700 22px 'Barlow Condensed',sans-serif;margin:16px 0 6px}
 .login .brand{font-size:30px}
@@ -197,3 +197,22 @@ details.sec2 summary{cursor:pointer;font-weight:700;font-size:14px}
   .ld{line-height:1.25}.li2{line-height:1.2;margin-top:1mm;text-transform:uppercase;font-weight:600}
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+/* v4: ürün adı düzeltme */
+button.iu{text-align:left;cursor:pointer;padding:2px 0;border-radius:6px}
+button.iu .pen{font-size:12px;color:var(--bl);opacity:.75;text-transform:none}
+button.iu:active{background:#eef3fb}
+.cnt.ren{background:#eef3fb;border-color:#cddcf2}
+#r-ad,#h-yeni{text-transform:uppercase}
+/* v5: dokümanlar */
+.irow .iu{flex:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+button.iun{text-align:left;cursor:pointer;font:600 14px/1.25 Barlow,sans-serif;text-transform:uppercase;word-break:break-word;border-radius:6px;padding:1px 0}
+button.iun .pen{font-size:12px;color:var(--bl);opacity:.75}
+.dchip{font:600 11.5px Barlow,sans-serif;color:var(--mu);border:1px dashed var(--ln);border-radius:999px;padding:2px 9px;margin-top:2px}
+.dchip.has{color:#7a4b0f;background:#fff4dc;border:1px solid #f0d69a}
+.cnt.docs{background:#fffaf0;border-color:#f0dcb0}
+.drow{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px dashed #ecd9b0}
+.dth{width:52px;height:52px;flex:none;border-radius:8px;background:#fff;border:1px solid var(--ln);display:flex;align-items:center;justify-content:center;overflow:hidden;text-decoration:none}
+.dth img{width:100%;height:100%;object-fit:cover}.dth .ph{font-size:26px}
+.dmeta{flex:1;min-width:0}.dname{display:block;font-weight:600;font-size:14px;color:var(--bl);word-break:break-word;text-decoration:none}
+.dmeta small{display:block;color:var(--mu);font-size:11.5px}
+label.upl{flex:1;text-align:center;cursor:pointer;margin:0;color:var(--tx);font-size:14px;padding:11px 8px}
